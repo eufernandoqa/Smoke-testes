@@ -1,5 +1,11 @@
-name: Testes Cypress
-on: push
+name: Cypress Smoke Tests
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - dev
 
 jobs:
   cypress-run-chrome:
