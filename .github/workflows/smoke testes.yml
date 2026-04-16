@@ -16,7 +16,7 @@ jobs:
       - name: Cypress.io rodando testes chrome
         uses: cypress-io/github-action@v5.8.2
         with:
-          command: npx cypress run --browser chrome
+          command: npx cypress run --env projeto=smoke --browser chrome
 #========================================================
       - name: Prints de execução de testes
         uses: actions/upload-artifact@v3.1.2
