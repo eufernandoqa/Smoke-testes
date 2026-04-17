@@ -17,7 +17,6 @@ jobs:
         uses: cypress-io/github-action@v6.10.1
         with:
           command: npx cypress run --env projeto=smoke --browser chrome
-                   npx cypress run --env projeto=A --browser chrome
 #========================================================
       - name: Prints de execução de testes
         uses: actions/upload-artifact@v4
