@@ -36,7 +36,7 @@ module.exports = defineConfig({
   }
 });
 
-//Com está configuração deve ser executados os testes com esses comandos.
+//Com esta configuração deve ser executados os testes com esses comandos.
 //npx cypress run --env projeto=A
 //npx cypress run --env projeto=B
 //npx cypress run --env projeto=smoke
